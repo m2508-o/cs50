@@ -1,6 +1,32 @@
 #include <iostream>
 #include <string>
+/* Problemset 1 
+void mario_c(int& height) {
+	for (int i = 0; i < height; i++) {
 
+		for (int j = height - 1; j > i; j--) {
+
+			std::cout << " ";
+		}
+
+		for (int k = 0; k < i + 1; k++) {
+			std::cout << "#";
+		}
+
+		std::cout << " ";
+
+		for (int c = height + 1; c > height - i ; c--)
+		{
+			std::cout << "#";
+		}
+		std::cout << std::endl;
+
+	}
+
+}
+
+*/
+/* Problemset 2 
 bool isValid(std::string& creditNumber) {
 	int sum = 0;
 	int* arr = new int[100];
@@ -61,11 +87,11 @@ bool isValid(std::string& creditNumber) {
 	}
 }
 
-
+*/ [[likely]];
 
 int main(int argc, char* argv[])
 {
-	/*
+	/* Input for problemset 1 
 	int height;
 	std::cout << "Height: ";
 	std::cin >> height;
@@ -77,6 +103,8 @@ int main(int argc, char* argv[])
 
 	mario_c(height);
 	*/
+
+	/* Input for problemset 2 
 	std::string creditNumber;
 
 	std::cout << "Number:";
@@ -86,9 +114,8 @@ int main(int argc, char* argv[])
 		std::cout << "Number: ";
 		std::cin >> creditNumber;
 	}
-
+	*/
 	return 0;
 
 
 }
-
